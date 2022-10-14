@@ -6,6 +6,6 @@ Q=float(input("Escriba el segundo valor:"))
 operacion=P**3+Q**4-2*P**2
 
 if(operacion>680):
-    print(P,"y",Q,"satisfacen la expresión")
+    print("el resultado de la operacion es:",operacion,"por lo que",P,"y",Q,"satisfacen la expresión")
 else:
-    print(P,"y",Q,"no satisfacen la expresión")
+    print("el resultado de la operacion es:",operacion,"por lo que",P,"y",Q,"no satisfacen la expresión")
