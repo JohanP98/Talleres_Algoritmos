@@ -1,0 +1,43 @@
+dicfin={}
+dicnom={}
+dicnot={}
+diccomb={}
+c=0
+ci=0
+cii=0
+cf=0
+lista=[]
+n=int(input("Escriba cuantos datos va a tener el diccionario:"))
+while True:
+        while True:
+                num=(input("ingrese el numero en orden del 1 al 10(dependiendo del valor que puso en numero de datos del diccionario, esto parará hasta que se llegue a ese valor:"))
+                lista.append[num]
+                c=c+1
+                if c==n:
+                        break
+        while True:
+                varnom=input("Escriba la variable 'nombre':")
+                nom=input("Escriba el nombre del estudiante:")
+                varno=input("Escriba la variable 'nota':")
+                nota=float(input("Escriba la nota:"))
+                for a,b in dicnom:
+                        dicnom.update({varnom,nom})
+                for c,d in dicnot:
+                        dicnot.update({varno,nota})
+                ci=ci+1
+                if ci==n:
+                        break
+        while True:
+                for r in lista:
+                        dicfin[r]
+                cii=cii+1
+                if cii==n:
+                        break 
+        for u in dicfin:
+                dicfin[u] = dicnom,dicnot
+                cf=cf+1
+                if cf==n:
+                        break
+        break
+print(dicfin)
+
